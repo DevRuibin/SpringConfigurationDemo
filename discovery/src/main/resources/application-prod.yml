@@ -1,0 +1,5 @@
+spring:
+  config:
+    import: configserver:http://config:8080
+  application:
+    name: discovery
